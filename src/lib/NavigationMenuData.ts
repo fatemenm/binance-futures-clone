@@ -386,4 +386,43 @@ export const navigationMenuData: NavigationMenuItem[] = [
       },
     ],
   },
+  {
+    type: "submenu",
+    title: "More",
+    items: [
+      {
+        title: "FAQ",
+        url: "https://www.binance.com/en/support/faq/c-4?navId=4",
+      },
+      {
+        title: "Learn",
+        items: [
+          {
+            title: "Get Started",
+            url: "https://www.binance.com/en/trade-get-started/futures",
+          },
+          {
+            title: "Mock Trading",
+            url: "https://testnet.binancefuture.com/",
+          },
+          {
+            title: "Responsible Trading",
+            url: "https://www.binance.com/en/futures/responsible-trading",
+          },
+        ],
+      },
+      {
+        title: "Trading Rules",
+        url: "/",
+      },
+      {
+        title: "Futures Referral",
+        url: "/",
+      },
+      {
+        title: "API Access",
+        url: "/",
+      },
+    ],
+  },
 ];
