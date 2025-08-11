@@ -19,7 +19,7 @@ export function Header() {
           <button className="rounded bg-gray-200 px-3 py-1.5 text-sm font-medium">
             Log In
           </button>
-          <button className="font-regular rounded bg-amber-300 px-3 py-1.5 text-sm font-medium">
+          <button className="font-regular rounded bg-yellow-300 px-3 py-1.5 text-sm font-medium">
             Sign Up
           </button>
         </div>
